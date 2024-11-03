@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Portafolio</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/296c253a12.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="bg-light py-3">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <h1 class="me-auto">Camila Valdebenito</h1>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Mis habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="text-center py-4">
+        <img src="assets/img/foto_camila.jpg" alt="" class="text-center rounded-circle" style="height: 200px;">
+        <h2>Soy Camila Valdebenito</h2>
+        <p>Desarrollador FrontEnd</p>
+    </section>
+
+    <section id="skills" class="py-4">
+        <div class="container">
+            <h2>Mis Habilidades</h2>
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <p><i class="fa fa-html5"></i> HTML5</p>
+                </div>
+                <div class="col-6 col-md-4">
+                    <p><i class="fa-brands fa-css3-alt"></i></i> CSS3</p>
+                </div>
+                <div class="col-6 col-md-4">
+                    <p><i class="fa-brands fa-square-js"></i> JavaScript</p>
+                </div>
+                <div class="col-6 col-md-4">
+                    <p><i class="fa-brands fa-react"></i> React</p>
+                </div>
+                <div class="col-6 col-md-4">
+                    <p><i class="fa-brands fa-node"></i> Node.js</p>
+                </div>
+                <div class="col-6 col-md-4">
+                    <p><i class="fa fa-database"></i> MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-4">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="assets/img/meetcoffee.png" alt="Proyecto 1" class="img-fluid">
+                    <h3>Meet & Coffe</h3>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="assets/img/meetcoffee.png" alt="Proyecto 2" class="img-fluid">
+                    <h3>Meet & Coffe</h3>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="assets/img/meetcoffee.png" alt="Proyecto 3" class="img-fluid">
+                    <h3>Meet & Coffe</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-4">
+        <div class="container">
+            <h2 class="text-center">Contactame</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstName">Nombre</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Apellido</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Tu apellido">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li class="m-2">
+                            <i class="fa fa-phone"></i> +56999887766
+                        </li>
+                        <li class="m-2">
+                            <i class="fa fa-envelope"></i> camilavaldebenitoleiva@gmail.com
+                        </li>
+                        <li class="m-2">
+                            <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/camilavaldebenitoleiva/" class="text-decoration-none" style="color: black;"> Linkedin</a>
+                        </li>
+                        <li class="m-2">
+                            <i class="fa fa-github"></i> <a href="https://github.com/CaamiVLeiva" class="text-decoration-none" style="color: black;">Github</a>
+                        </li>
+                        <li class="m-2">
+                            <i class="fa fa-instagram"></i> <a href="#" class="text-decoration-none" style="color: black;">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
